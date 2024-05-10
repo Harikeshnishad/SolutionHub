@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    tools:ignore="HardcodedText">
+
+    <group android:checkableBehavior="single"
+        tools:ignore="HardcodedText">
+        <item
+            android:id="@+id/nav_myqs"
+            android:title="My Questions"
+            android:icon="@drawable/baseline_question_answer_24"
+            tools:ignore="HardcodedText" />
+
+        <item
+            android:id="@+id/nav_Finance"
+            android:title="Finance"
+            android:icon="@drawable/ic_fnc"
+            tools:ignore="HardcodedText" />
+
+        <item
+            android:id="@+id/nav_sport"
+            android:title="Sports"
+            android:icon="@drawable/ic_sport"
+            tools:ignore="HardcodedText" />
+
+        <item
+            android:id="@+id/nav_learn"
+            android:title="Learning"
+            android:icon="@drawable/ic_baseline_menu_book_24"/>
+
+        <item
+            android:id="@+id/nav_Food"
+            android:title="Food"
+            android:icon="@drawable/ic_baseline_fastfood_24"/>
+
+    </group>
+
+    <item android:title="Actions">
+
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:title="Share"
+                android:icon="@drawable/ic_baseline_share_24"/>
+
+            <item
+                android:id="@+id/rate"
+                android:title="Rate"
+                android:icon="@drawable/ic_baseline_rate_review_24"/>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,58 @@
+[versions]
+agp = "8.3.2"
+firebaseBom = "33.0.0"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+material = "1.12.0"
+activity = "1.9.0"
+constraintlayout = "2.1.4"
+firebaseAnalytics = "22.0.0"
+lifecycleViewmodel = "2.8.0-rc01"
+lifecycleLivedata = "2.8.0-rc01"
+firebaseAuth = "23.0.0"
+firebaseDatabase = "21.0.0"
+firebaseFirestore = "25.0.0"
+circleimageview = "3.1.0"
+firebaseStorage = "21.0.0"
+okhttpBom = "4.10.0"
+okhttp = "5.0.0-alpha.14"
+loggingInterceptor = "5.0.0-alpha.14"
+picasso2Okhttp3Downloader = "1.1.0"
+expandabletextview = "0.1.4"
+expandabletextviewVersion = "1.0.5"
+glide = "5.0.0-rc01"
+compiler = "5.0.0-rc01"
+startupRuntime = "1.2.0-alpha02"
+
+[libraries]
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+firebase-analytics = { group = "com.google.firebase", name = "firebase-analytics", version.ref = "firebaseAnalytics" }
+lifecycle-viewmodel = { group = "androidx.lifecycle", name = "lifecycle-viewmodel", version.ref = "lifecycleViewmodel" }
+lifecycle-livedata = { group = "androidx.lifecycle", name = "lifecycle-livedata", version.ref = "lifecycleLivedata" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
+firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore", version.ref = "firebaseFirestore" }
+circleimageview = { group = "de.hdodenhof", name = "circleimageview", version.ref = "circleimageview" }
+firebase-storage = { group = "com.google.firebase", name = "firebase-storage", version.ref = "firebaseStorage" }
+okhttp-bom = { module = "com.squareup.okhttp3:okhttp-bom", version.ref = "okhttpBom" }
+okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
+logging-interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "loggingInterceptor" }
+picasso2-okhttp3-downloader = { group = "com.jakewharton.picasso", name = "picasso2-okhttp3-downloader", version.ref = "picasso2Okhttp3Downloader" }
+expandableTextView = { group = "com.ms-square", name = "expandableTextView", version.ref = "expandabletextview" }
+blogc-expandabletextview = { group = "at.blogc", name = "expandabletextview", version.ref = "expandabletextviewVersion" }
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
+compiler = { group = "com.github.bumptech.glide", name = "compiler", version.ref = "compiler" }
+startup-runtime = { group = "androidx.startup", name = "startup-runtime", version.ref = "startupRuntime" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+

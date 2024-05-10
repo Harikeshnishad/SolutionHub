@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "922148494020",
+    "firebase_url": "https://fir-demo-app1-54c91-default-rtdb.firebaseio.com",
+    "project_id": "fir-demo-app1-54c91",
+    "storage_bucket": "fir-demo-app1-54c91.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922148494020:android:b2268131ab4ec6bb49c791",
+        "android_client_info": {
+          "package_name": "com.hari.firebasedemoapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGUhssA4EEkY9Hdqpafjh7C2IRkifn4OE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922148494020:android:6cb1e3e1f74ee37b49c791",
+        "android_client_info": {
+          "package_name": "com.hari.solutionhub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGUhssA4EEkY9Hdqpafjh7C2IRkifn4OE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
